@@ -1,0 +1,3 @@
+<launch>
+    <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen" respawn="false" args="-file $(find demo_bot_gazebo)/urdf/bot_4.urdf -urdf -model bot_4 -z 1" />
+</launch>
